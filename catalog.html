@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Гитары Ритм || Каталог товаров</title>
+
+    <link rel="stylesheet" href="assets/style/style.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/img/icons/favicon.svg"
+      type="image/x-icon"
+    />
+
+    <script src="assets/js/main.js" defer></script>
+  </head>
+
+  <body>
+    <!-- header -->
+    <header class="container">
+      <div class="header-top">
+        <input type="checkbox" id="burger" />
+        <label for="burger">
+          <span class="burger__span"></span>
+        </label>
+        <div class="nav-mobile">
+          <a href=""> Новости </a>
+
+          <a href=""> Электрогитары </a>
+
+          <a href=""> Бас-гитары </a>
+
+          <a href=""> Акустические </a>
+
+          <a href=""> Усилители и эффекты </a>
+
+          <a href=""> Аксессуары </a>
+
+          <a href=""> Каталог </a>
+          <a href="reg.html"> Войти </a>
+        </div>
+
+        <div class="logo">
+          <a href="index.html">
+            <img src="assets/img/icons/logo.svg" alt="" />
+          </a>
+        </div>
+
+        <form action="" class="search none-mobile">
+          <img src="assets/img/icons/lupa.svg" alt="" />
+          <input type="text" placeholder="поможем с поиском" />
+        </form>
+
+        <nav>
+          <a href="#">
+            <img src="assets/img/icons/geo.svg" alt="" />
+          </a>
+
+          <a href="reg.html">
+            <img src="assets/img/icons/login.svg" alt="" />
+          </a>
+
+          <a href="#">
+            <img src="assets/img/icons/basket.svg" alt="" />
+          </a>
+        </nav>
+      </div>
+
+      <div class="header-bottom">
+        <nav class="none-mobile">
+          <a href=""> Новости </a>
+
+          <a href=""> Электрогитары </a>
+
+          <a href=""> Бас-гитары </a>
+
+          <a href=""> Акустические </a>
+
+          <a href=""> Усилители и эффекты </a>
+
+          <a href=""> Аксессуары </a>
+
+          <a href=""> Каталог </a>
+        </nav>
+
+        <form action="" class="search hide">
+          <img src="assets/img/icons/lupa.svg" alt="" />
+          <input type="text" placeholder="поможем с поиском" />
+        </form>
+      </div>
+    </header>
+
+    <!-- catalog -->
+    <section class="catalog container">
+      <p>Главная • Каталог</p>
+
+      <div class="sort-menu" id="sortMenu">
+        <div class="sort-menu-header">
+          <h3>Сортировать по:</h3>
+          <button class="close-btn" id="closeSortMenu">×</button>
+        </div>
+        <div class="sort-options">
+          <div class="select-selected">
+            Тип гитары
+            <img src="assets/img/catalog/arrow.svg" alt="" />
+          </div>
+          <div class="select-items select-hide">
+            <div>Акустическая</div>
+            <div>Электрическая</div>
+            <div>Бас-гитара</div>
+            <div>Классическая</div>
+          </div>
+
+          <div class="select-selected">
+            Материал
+            <img src="assets/img/catalog/arrow.svg" alt="" />
+          </div>
+          <div class="select-items select-hide">
+            <div>Секвойя</div>
+            <div>Сосна</div>
+            <div>Кедр</div>
+          </div>
+
+          <div class="select-selected">
+            Производитель
+            <img src="assets/img/catalog/arrow.svg" alt="" />
+          </div>
+          <div class="select-items select-hide">
+            <div>Gibson</div>
+            <div>Yamaha</div>
+            <div>Fender</div>
+          </div>
+
+          <div class="select-selected">
+            Другие товары
+            <img src="assets/img/catalog/arrow.svg" alt="" />
+          </div>
+          <div class="select-items select-hide">
+            <div>Звукоусилители</div>
+            <div>Струны</div>
+            <div>Колонки</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="catalog-top">
+        <h1>Каталог товаров</h1>
+        <button class="btn" id="sortButton">
+          <img src="assets/img/catalog/filter_btn.svg" alt="" />
+          Сортировать
+        </button>
+      </div>
+
+      <div class="catalog-content">
+        <div class="card">
+          <p class="category__catalog">Новинка</p>
+          <div class="cover">
+            <img src="assets/img/catalog/card1.png" alt="" />
+          </div>
+
+          <p class="name">Акустическая гитара® Standard Telecaster®</p>
+
+          <div class="card-bottom">
+            <p class="price">59 999 ₽</p>
+
+            <a href="card.html" class="btn"> купить </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <p class="category__catalog">Хит продаж</p>
+          <div class="cover">
+            <img src="assets/img/catalog/card2.png" alt="" />
+          </div>
+
+          <p class="name">
+            Лимитированная версия American Vintage II 1951 Telecaster®,
+            Prototype White
+          </p>
+
+          <div class="card-bottom">
+            <p class="price">159 990 ₽</p>
+
+            <a href="card.html" class="btn"> купить </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <p class="category__catalog">Новинка</p>
+          <div class="cover">
+            <img src="assets/img/catalog/card3.png" alt="" />
+          </div>
+
+          <p class="name">Колонки Mustang GTX100 Bundle</p>
+
+          <div class="card-bottom">
+            <p class="price">29 799 ₽</p>
+
+            <a href="card.html" class="btn"> купить </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <p class="category__catalog">Хит продаж</p>
+          <div class="cover">
+            <img src="assets/img/catalog/card4.png" alt="" />
+          </div>
+
+          <p class="name">Лимитированная версия Squier Sonic® Telecaster®</p>
+
+          <div class="card-bottom">
+            <p class="price">59 999 ₽</p>
+
+            <a href="card.html" class="btn"> купить </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <p class="category__catalog">Новинка</p>
+          <div class="cover">
+            <img src="assets/img/catalog/card5.png" alt="" />
+          </div>
+
+          <p class="name">Кабель Contour™ Series Instrument Cables</p>
+
+          <div class="card-bottom">
+            <p class="price">1 999 ₽</p>
+
+            <a href="card.html" class="btn"> купить </a>
+          </div>
+        </div>
+
+        <div class="card">
+          <p class="category__catalog">Хит продаж</p>
+          <div class="cover">
+            <img src="assets/img/catalog/card6.png" alt="" />
+          </div>
+
+          <p class="name">Электрогитара® Affinity Series® Active Jazz Bass</p>
+
+          <div class="card-bottom">
+            <p class="price">79 999 ₽</p>
+
+            <a href="card.html" class="btn"> купить </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="catalog-bottom">
+        <button class="btn">Больше</button>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="container">
+      <div class="footer-top mt150">
+        <form action="">
+          <p class="title">Не упусти свой шанс!</p>
+          <p class="desc">
+            Будьте первыми, кто узнает о новых продуктах, рекомендуемом
+            контенте, эксклюзивных предложениях и розыгрышах призов.
+          </p>
+
+          <div class="form-bottom">
+            <input type="text" placeholder="Введите почту" />
+            <button type="submit">Подписаться</button>
+          </div>
+        </form>
+
+        <div class="column">
+          <nav>
+            <p class="title">Товары</p>
+
+            <a href="">Электрогитары</a>
+            <a href="">Стратокастер</a>
+            <a href="">Телекастер</a>
+            <a href="">Гитарные усилители</a>
+            <a href="">Басы</a>
+            <a href="">Акустические гитары</a>
+          </nav>
+
+          <nav>
+            <p class="title">Компания</p>
+
+            <a href="">История бренда</a>
+            <a href="">Приложения</a>
+            <a href="">Новости</a>
+            <a href="">Скидка студентам</a>
+          </nav>
+
+          <nav>
+            <p class="title">Прочее</p>
+
+            <a href="">Мой аккаунт</a>
+            <a href="">Статус заказа</a>
+            <a href="">Возврат</a>
+            <a href="">Политика конфиденциальности</a>
+            <a href="">Поддержка</a>
+          </nav>
+        </div>
+
+        <!-- dropdown-list -->
+        <div class="sort-options">
+          <div class="sort-option">
+            <div class="select-selected">
+              <p class="title">Товары</p>
+              <img src="assets/img/catalog/arrow.svg" alt="" />
+            </div>
+            <div class="select-items select-hide">
+              <a href="">Электрогитары</a>
+              <a href="">Стратокастер</a>
+              <a href="">Телекастер</a>
+              <a href="">Гитарные усилители</a>
+              <a href="">Басы</a>
+              <a href="">Акустические гитары</a>
+            </div>
+          </div>
+
+          <div class="sort-option">
+            <div class="select-selected">
+              Компания
+              <img src="assets/img/catalog/arrow.svg" alt="" />
+            </div>
+            <div class="select-items select-hide">
+              <a href="">История бренда</a>
+              <a href="">Приложения</a>
+              <a href="">Новости</a>
+              <a href="">Скидка студентам</a>
+            </div>
+          </div>
+
+          <div class="sort-option">
+            <div class="select-selected">
+              Прочее
+              <img src="assets/img/catalog/arrow.svg" alt="" />
+            </div>
+            <div class="select-items select-hide">
+              <a href="">Мой аккаунт</a>
+              <a href="">Статус заказа</a>
+              <a href="">Возврат</a>
+              <a href="">Политика конфиденциальности</a>
+              <a href="">Поддержка</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- bottom -->
+      <div class="footer-bottom">
+        <a href="">
+          <img src="assets/img/icons/vk.svg" alt="" />
+        </a>
+
+        <a href="">
+          <img src="assets/img/icons/tg.svg" alt="" />
+        </a>
+
+        <a href="">
+          <img src="assets/img/icons/youtube.svg" alt="" />
+        </a>
+
+        <a href="">
+          <img src="assets/img/icons/tiktok.svg" alt="" />
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>

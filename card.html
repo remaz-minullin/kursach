@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Гитары Ритм || Акустические гитары, Электрогитары, Басс гитары
+    </title>
+
+    <link rel="stylesheet" href="assets/style/style.css" />
+    <link
+      rel="shortcut icon"
+      href="assets/img/icons/favicon.svg"
+      type="image/x-icon"
+    />
+
+  </head>
+
+  <body>
+
+    <div class="overlay-bg" id="cartOverlayBg"></div>
+    
+    <div class="cart-overlay" id="cartOverlay">
+      <div class="cart-header">
+       <div class="left">
+        <h3>Ваша корзина</h3>
+        <p class="desc">Бесплатная доставка в любой город России доставка </p>
+       </div>
+        <button class="close-cart" id="closeCart">×</button>
+      </div>
+      
+      <div id="cartItems">
+        <div class="cart-item">
+          <div class="left">
+            <img src="assets/img/catalog/roduct.png" alt="American Ultra II Telecaster">
+          <div class="cart-item-info">
+            <h4>American Ultra II Telecaster</h4>
+            <p class="desc">Модель #: 0119171790</p>
+            <p class="desc">Техасский чай/ Черное дерево / Ольха</p>
+           
+            <div class="buttons">
+              <button>-</button>
+              <span>1</span>
+              <button>+</button>
+            </div>
+          </div>
+          </div>
+         <div class="right">
+          <p class="price"> 21 999 ₽</p>
+          <img src="assets/img/icons/trash.svg" alt="">
+         </div>
+        </div>
+      </div>
+      
+      <div class="cart-total">
+        Стоимость: 21 999 ₽
+      </div>
+      
+      <button class="checkout-btn">Купить</button>
+    </div>
+
+    <!-- header -->
+    <header class="container">
+      <div class="header-top">
+        <input type="checkbox" id="burger" />
+        <label for="burger">
+          <span class="burger__span"></span>
+        </label>
+        <div class="nav-mobile">
+          <a href=""> Новости </a>
+          <a href=""> Электрогитары </a>
+          <a href=""> Бас-гитары </a>
+          <a href=""> Акустические </a>
+          <a href=""> Усилители и эффекты </a>
+          <a href=""> Аксессуары </a>
+          <a href=""> Каталог </a>
+          <a href="reg.html"> Войти </a>
+          <a href="add.html"> Добавить </a>
+        </div>
+
+        <div class="logo">
+          <a href="index.html">
+            <img src="assets/img/icons/logo.svg" alt="" />
+          </a>
+        </div>
+
+        <form action="" class="search none-mobile">
+          <img src="assets/img/icons/lupa.svg" alt="" />
+          <input type="text" placeholder="поможем с поиском" />
+        </form>
+
+        <nav>
+          <a href="#">
+            <img src="assets/img/icons/geo.svg" alt="" />
+          </a>
+
+          <a href="reg.html">
+            <img src="assets/img/icons/login.svg" alt="" />
+          </a>
+
+          <a href="#" id="cartIcon">
+            <img src="assets/img/icons/basket.svg" alt="" />
+          </a>
+        </nav>
+      </div>
+
+      <div class="header-bottom">
+        <nav class="none-mobile">
+          <a href=""> Новости </a>
+          <a href=""> Электрогитары </a>
+          <a href=""> Бас-гитары </a>
+          <a href=""> Акустические </a>
+          <a href=""> Усилители и эффекты </a>
+          <a href=""> Аксессуары </a>
+          <a href="catalog.html"> Каталог </a>
+          <a href="add.html"> Добавить </a>
+        </nav>
+
+        <form action="" class="search hide">
+          <img src="assets/img/icons/lupa.svg" alt="" />
+          <input type="text" placeholder="поможем с поиском" />
+        </form>
+      </div>
+    </header>
+
+    <section class="product-content container">
+      <p>Главная • Каталог • American Ultra II Telecaster</p>
+
+      <div class="basket-mobile">
+        <div class="left-box">
+          <h1 class="title">American Ultra II Telecaster</h1>
+          <p class="price">21 999 ₽</p>
+        </div>
+
+        <div class="right-box">
+          <a href="#" class="btn add-to-cart"> В корзину </a>
+        </div>
+      </div>
+
+      <div class="product-content__top">
+        <div class="left-box">
+          <div class="left-box__top">
+            <img src="assets/img/card/photo1.png" alt="" />
+          </div>
+
+          <div class="left-box__bottom">
+            <img src="assets/img/card/photo2.png" alt="" />
+            <img src="assets/img/card/photo3.png" alt="" />
+          </div>
+        </div>
+
+        <div class="right-box">
+          <div class="right-box__top">
+            <h1 class="title">American Ultra II Telecaster</h1>
+            <p class="model">Модель #: 0119171790</p>
+
+            <p class="price">21 999 ₽</p>
+
+            <div class="yandex">
+              <p class="price">От 3 729 ₽ вместе с</p>
+              <img src="assets/img/icons/yandex.svg" alt="" />
+            </div>
+
+            <ul class="about-product">
+              <li>
+                Корпус из ольхи с ультратонкими контурами и скульптурной
+                горловиной.
+              </li>
+              <li>Современный гриф из клена</li>
+              <li>
+                Накладка из комбинированного черного дерева или клена с радиусом
+                10"-14" с ультра катаным покрытием. Края и боковые точки с
+                подсветкой
+              </li>
+            </ul>
+
+            <a href="#characteristic" class="btn">
+              Подробнее <img src="assets/img/catalog/arrow.svg" alt="" />
+            </a>
+          </div>
+
+          <div class="right-box__mid">
+            <div class="color">
+              <p><span>Цвет:</span> Техасский чай</p>
+              <div class="bottom">
+                <span>
+                  <img src="assets/img/card/color_guitar/black.png" alt="" />
+                </span>
+
+                <span>
+                  <img src="assets/img/card/color_guitar/brown.png" alt="" />
+                </span>
+
+                <span>
+                  <img src="assets/img/card/color_guitar/gray.png" alt="" />
+                </span>
+
+                <span>
+                  <img src="assets/img/card/color_guitar/red.png" alt="" />
+                </span>
+
+                <span>
+                  <img src="assets/img/card/color_guitar/yellow.png" alt="" />
+                </span>
+              </div>
+            </div>
+
+            <div class="color">
+              <p><span>Материал грифа:</span> Черное дерево</p>
+              <div class="bottom">
+                <span>
+                  <img src="assets/img/card/color_guitar/black.png" alt="" />
+                </span>
+              </div>
+            </div>
+
+            <div class="color">
+              <p><span>Материал корпуса:</span> Ольха</p>
+              <div class="bottom">
+                <span>
+                  <img src="assets/img/card/color_guitar/olha.png" alt="" />
+                </span>
+              </div>
+            </div>
+
+            <a href="#" class="btn add-to-cart"> В корзину </a>
+
+            <a href="" class="btn_search"> Найти в Магазине </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-content__bottom mt70">
+        <div class="product-desc">
+          <h2 class="title">Описание</h2>
+          <p class="desc">
+            American Ultra II — это наша самая передовая серия инструментов,
+            созданная для тех, кто стремится к лучшему. Гитары и бас-гитары
+            American Ultra II изготовлены из высококачественных материалов,
+            отличаются точностью исполнения и ультрасовременным дизайном, что
+            обеспечивает соответствие современным требованиям и долговечность.
+            Корпус Fender American Ultra II Telecaster выполнен из отборной
+            ольхи со скульптурными контурами, гриф quartersawn maple имеет
+            современный D-образный профиль и гладкую ультра-сатиновую отделку.
+            Накладки на грифы compound radius имеют ультракруглые края, лады
+            среднего размера, боковые точки Luminlay и Graph Tech TUSQ орехи.
+            Звукосниматели Ultra II Noiseless Vintage Tele, расположенные под
+            капотом, обеспечивают кристальную чистоту, резкий звук и мощное
+            рычание без гула. Запатентованный переключатель S-1 позволяет
+            использовать последовательную проводку для разнообразия тембров.
+            Дополнительные функции включают в себя 6-седельный мост с
+            хромированными латунными седлами и роскошным замком, алюминиевые
+            ручки с накаткой и накладку из 1-слойного анодированного алюминия.
+            American Ultra II Telecaster сочетает культовый стиль и передовые
+            технологии, поднимающие игру на новые высоты. American Ultra II
+            подходит для игроков, требующих безупречного звука, универсальности
+            и производительности.
+          </p>
+        </div>
+
+        <div class="characteristic" id="characteristic">
+          <h2 class="title">Особенности</h2>
+          <ul class="about-product">
+            <li>
+              Корпус из ольхи с ультратонкими контурами и скульптурной
+              горловиной.
+            </li>
+            <li>Современный гриф из клена</li>
+            <li>
+              Накладка из комбинированного черного дерева или клена с радиусом
+              10"-14" с ультра катаным покрытием. Края и боковые точки с
+              подсветкой
+            </li>
+            <li>
+              Винтажные звукосниматели Tele Ultra II Noiseless,
+              усовершенствованная электроника и коммутация S-1
+            </li>
+            <li>
+              Хардтейл-бридж с 6-ю седлами, проходящими через корпус, и седлами
+              из хромированной латуни
+            </li>
+            <li>Тюнеры с короткой фиксацией после установки</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- take this -->
+    <section class="new-product mt150 container">
+      <div class="content-top mt150">
+        <h2 class="title">Часто берут вместе</h2>
+
+        <div class="arrow">
+          <button class="reverse prev">
+            <img src="assets/img/icons/arrow.svg" alt="" />
+          </button>
+          <button class="next">
+            <img src="assets/img/icons/arrow.svg" alt="" />
+          </button>
+        </div>
+      </div>
+
+      <div class="slider-container">
+        <div class="card-content container slider-track">
+          <div class="card mt70 slide">
+            <div class="cover">
+              <img src="assets/img/catalog/card5.png" alt="" />
+            </div>
+
+            <p class="name">Кабель Contour™ Series Instrument Cables</p>
+
+            <div class="card-bottom">
+              <p class="price">1 999 ₽</p>
+
+              <a href="catalog.html" class="btn"> купить </a>
+            </div>
+          </div>
+
+          <div class="card mt70 slide">
+            <div class="cover">
+              <img src="assets/img/catalog/card3.png" alt="" />
+            </div>
+
+            <p class="name">Колонки Mustang GTX100 Bundle</p>
+
+            <div class="card-bottom">
+              <p class="price">29 799 ₽</p>
+
+              <a href="catalog.html" class="btn"> купить </a>
+            </div>
+          </div>
+
+          <div class="card mt70 slide">
+            <div class="cover">
+              <img src="assets/img/catalog/card7.png" alt="" />
+            </div>
+
+            <p class="name">Медиаотры Tom DeLonge 351 Celluloid Picks (6 шт)</p>
+
+            <div class="card-bottom">
+              <p class="price">999 ₽</p>
+
+              <a href="catalog.html" class="btn"> купить </a>
+            </div>
+          </div>
+
+          <div class="card mt70 slide">
+            <div class="cover">
+              <img src="assets/img/catalog/card5.png" alt="" />
+            </div>
+
+            <p class="name">Кабель Contour™ Series Instrument Cables</p>
+
+            <div class="card-bottom">
+              <p class="price">1 999 ₽</p>
+
+              <a href="catalog.html" class="btn"> купить </a>
+            </div>
+          </div>
+
+          <div class="card mt70 slide">
+            <div class="cover">
+              <img src="assets/img/catalog/card5.png" alt="" />
+            </div>
+
+            <p class="name">Кабель Contour™ Series Instrument Cables</p>
+
+            <div class="card-bottom">
+              <p class="price">1 999 ₽</p>
+
+              <a href="catalog.html" class="btn"> купить </a>
+            </div>
+          </div>
+
+          <div class="card mt70 slide">
+            <div class="cover">
+              <img src="assets/img/catalog/card5.png" alt="" />
+            </div>
+
+            <p class="name">Кабель Contour™ Series Instrument Cables</p>
+
+            <div class="card-bottom">
+              <p class="price">1 999 ₽</p>
+
+              <a href="catalog.html" class="btn"> купить </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="container">
+      <div class="footer-top mt150">
+        <form action="">
+          <p class="title">Не упусти свой шанс!</p>
+          <p class="desc">
+            Будьте первыми, кто узнает о новых продуктах, рекомендуемом
+            контенте, эксклюзивных предложениях и розыгрышах призов.
+          </p>
+
+          <div class="form-bottom">
+            <input type="text" placeholder="Введите почту" />
+            <button type="submit">Подписаться</button>
+          </div>
+        </form>
+
+        <div class="column">
+          <nav>
+            <p class="title">Товары</p>
+
+            <a href="">Электрогитары</a>
+            <a href="">Стратокастер</a>
+            <a href="">Телекастер</a>
+            <a href="">Гитарные усилители</a>
+            <a href="">Басы</a>
+            <a href="">Акустические гитары</a>
+          </nav>
+
+          <nav>
+            <p class="title">Компания</p>
+
+            <a href="">История бренда</a>
+            <a href="">Приложения</a>
+            <a href="">Новости</a>
+            <a href="">Скидка студентам</a>
+          </nav>
+
+          <nav>
+            <p class="title">Прочее</p>
+
+            <a href="">Мой аккаунт</a>
+            <a href="">Статус заказа</a>
+            <a href="">Возврат</a>
+            <a href="">Политика конфиденциальности</a>
+            <a href="">Поддержка</a>
+          </nav>
+        </div>
+
+        <!-- dropdown-list -->
+        <div class="sort-options">
+          <div class="sort-option">
+            <div class="select-selected">
+              <p class="title">Товары</p>
+              <img src="assets/img/catalog/arrow.svg" alt="" />
+            </div>
+            <div class="select-items select-hide">
+              <a href="">Электрогитары</a>
+              <a href="">Стратокастер</a>
+              <a href="">Телекастер</a>
+              <a href="">Гитарные усилители</a>
+              <a href="">Басы</a>
+              <a href="">Акустические гитары</a>
+            </div>
+          </div>
+
+          <div class="sort-option">
+            <div class="select-selected">
+              Компания
+              <img src="assets/img/catalog/arrow.svg" alt="" />
+            </div>
+            <div class="select-items select-hide">
+              <a href="">История бренда</a>
+              <a href="">Приложения</a>
+              <a href="">Новости</a>
+              <a href="">Скидка студентам</a>
+            </div>
+          </div>
+
+          <div class="sort-option">
+            <div class="select-selected">
+              Прочее
+              <img src="assets/img/catalog/arrow.svg" alt="" />
+            </div>
+            <div class="select-items select-hide">
+              <a href="">Мой аккаунт</a>
+              <a href="">Статус заказа</a>
+              <a href="">Возврат</a>
+              <a href="">Политика конфиденциальности</a>
+              <a href="">Поддержка</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- bottom -->
+      <div class="footer-bottom">
+        <a href="">
+          <img src="assets/img/icons/vk.svg" alt="" />
+        </a>
+
+        <a href="">
+          <img src="assets/img/icons/tg.svg" alt="" />
+        </a>
+
+        <a href="">
+          <img src="assets/img/icons/youtube.svg" alt="" />
+        </a>
+
+        <a href="">
+          <img src="assets/img/icons/tiktok.svg" alt="" />
+        </a>
+      </div>
+    </footer>
+    
+    <script>
+      // Добавляем функционал корзины
+      document.addEventListener('DOMContentLoaded', function() {
+        const cartOverlay = document.getElementById('cartOverlay');
+        const cartOverlayBg = document.getElementById('cartOverlayBg');
+        const closeCart = document.getElementById('closeCart');
+        const cartIcon = document.getElementById('cartIcon');
+        const addToCartButtons = document.querySelectorAll('.add-to-cart');
+        
+        // Открытие корзины
+        function openCart() {
+          cartOverlay.classList.add('active');
+          cartOverlayBg.classList.add('active');
+          document.body.style.overflow = 'hidden';
+        }
+        
+        // Закрытие корзины
+        function closeCartFunc() {
+          cartOverlay.classList.remove('active');
+          cartOverlayBg.classList.remove('active');
+          document.body.style.overflow = '';
+        }
+        
+        // Обработчики событий
+        cartIcon.addEventListener('click', function(e) {
+          e.preventDefault();
+          openCart();
+        });
+        
+        addToCartButtons.forEach(button => {
+          button.addEventListener('click', function(e) {
+            e.preventDefault();
+            openCart();
+            // Здесь можно добавить логику добавления товара в корзину
+          });
+        });
+        
+        closeCart.addEventListener('click', closeCartFunc);
+        cartOverlayBg.addEventListener('click', closeCartFunc);
+        
+        // Закрытие при нажатии ESC
+        document.addEventListener('keydown', function(e) {
+          if (e.key === 'Escape') {
+            closeCartFunc();
+          }
+        });
+      });
+    </script>
+  </body>
+</html>
