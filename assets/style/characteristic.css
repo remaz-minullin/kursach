@@ -108,7 +108,7 @@ p {
   height: 100%;
   left: -100%;
   background-color: #f4f4f4;
-  z-index: 999;
+  z-index: 995;
 }
 
 .nav-mobile a {
